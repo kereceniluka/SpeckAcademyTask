@@ -1,0 +1,88 @@
+/*
+    speck-blue-color: rgb(74, 66, 198)
+    speck-red-color: rgb(255, 102, 102)
+    background-color: rgb(249, 249, 253)
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(249, 249, 253);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 25rem;
+  height: 30rem;
+  border: 0.2rem solid rgb(74, 66, 198);
+  text-align: center;
+  padding: 1.5rem;
+  position: relative;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+}
+
+.list-heading {
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(74, 66, 198);
+}
+
+.list-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list-group-item {
+  list-style: none;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.list-group-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+#tools-group .list-group-item:hover {
+  cursor: pointer;
+  color: rgb(74, 66, 198);
+}
+
+#toolbox-group {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+#toolbox-group .list-group-item:hover {
+  cursor: pointer;
+  color: rgb(255, 102, 102);
+}
+
+.error-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.empty-list {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.scroll-vertical {
+  overflow-y: scroll;
+}
