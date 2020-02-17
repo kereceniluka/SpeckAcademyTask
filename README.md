@@ -1,0 +1,2 @@
+# SpeckAcademyTask
+Selekcijski zadatak
